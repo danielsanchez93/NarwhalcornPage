@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100 !important;
+    background-color: #272949;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+.nav-barra {
+    background-color: #272949;
+}
+
+.web-logo {
+    height: 60px;
+}
+
+.top-spacer {
+    height: 86px;
+}
+
+.container-body {
+    position: absolute;
+    padding: 0;
+    z-index: 0;
+}
+
+.titulo-fondo {
+    position: relative;
+    z-index: -6;
+    width: 100%;
+    height: 600px;
+    background: url("../img/NARWHALCORN-PORTADA-WEB-FONDO.jpg") center top no-repeat;
+    background-size: cover;
+    padding: 0;
+    overflow: hidden;
+}
+
+.titulo-5 {
+    z-index: -5;
+    position: absolute;
+    width: 102%;
+    height: 102%;
+    left: -1%;
+    top: -1%;
+    background: url("../img/NARWHALCORN-PORTADA-WEB-FONDO-5.jpg.png") center no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.titulo-4 {
+    z-index: -4;
+    position: absolute;
+    width: 102%;
+    height: 102%;
+    left: -1%;
+    top: -1%;
+    background: url("../img/NARWHALCORN-PORTADA-WEB-FONDO-4.jpg.png") center no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.titulo-3 {
+    z-index: -3;
+    position: absolute;
+    width: 102%;
+    height: 102%;
+    left: -1%;
+    top: -1%;
+    background: url("../img/NARWHALCORN-PORTADA-WEB-FONDO-3.jpg.png") center no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.titulo-2 {
+    z-index: -2;
+    position: absolute;
+    width: 102%;
+    height: 102%;
+    left: -1%;
+    top: -1%;
+    background: url("../img/NARWHALCORN-PORTADA-WEB-FONDO-2.jpg.png") center no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.titulo-1 {
+    z-index: -1;
+    position: absolute;
+    width: 102%;
+    height: 103%;
+    left: -1%;
+    top: -1%;
+    background: url("../img/NARWHALCORN-PORTADA-WEB-FONDO-1.jpg.png") center no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.btns-sociales {
+    padding: 10px 0;
+    background-color: #f0047f;
+}
+
+.btn-social {
+    width: 100%;
+    background-color: #e20376;
+    border-style: none; 
+    font-weight: bold;
+}
+
+.btn-social:hover {
+    background-color: #00a0c6;
+}
+
+.posts-style {
+    padding: 30px 0;
+    background-color: #272949;
+}
+
+.noticia {
+    height: 300px;
+    padding: 10px;
+}
+
+.card-info {
+    background-color: #4c516e;
+    color: #fff;
+    padding: 20px;
+    height: 300px;
+}
+
+.n-left {
+    background-color: #b7e4e8;
+}
+
+.n-center {
+    background-color: #f0047f;
+}
+
+.n-right {
+    background-color: #ff8000;
+}
+
+.carousel-style {
+    padding: 30px 0;
+    background-image: linear-gradient(rgba(230, 44, 183, 0), rgba(230, 44, 183, 0.3));
+}
+
+.nosotros-style {
+    padding: 50px 0;
+    color: #fff;
+    background-color: #272949;
+    overflow: hidden;
+}
+
+.nosotros-title {
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.under-nosotros {
+    margin-bottom: 30px;
+}
+
+.card-mision {
+    background-color: #ffe610;
+    color: #332e00;
+}
+
+.card-vision {
+    background-color: #00a0c6;
+    color: #002933;
+}
+
+.card-filosofia {
+    background-color: #ff8000;
+    color: #331a00;
+}
+
+.card-exp {
+    background-color: #cce70b;
+    color: #2b3102;
+}
+
+.valores-m {
+    margin-bottom: 30px;
+}
+
+.valores-style {
+    background-color: #b7e4e8;
+    padding: 20px;
+}
+
+.valores-style .card {
+    border: 2px solid #1f5b61;
+    background-color: transparent;
+}
+
+.valores-texto {
+    color: #0c2527;
+}
+
+.footer-style {
+    background-color: #272949;
+    padding: 10px 0;
+}
+
+.franja-style {
+    height: 15px;
+    margin: 0 10px;
+}
+
+.footer-text {
+    padding: 20px 0;
+}
+
+.copyright {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.designed-by {
+    font-size: 14px;
+    color: rgb(201, 201, 201);
+}
