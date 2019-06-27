@@ -114,6 +114,7 @@ body {
 .posts-style {
     padding: 30px 0;
     background-color: #272949;
+    background: url(/img/NARWHALCORN-PORTADA-WEB-FONDO-5.jpg.png);
 }
 
 .noticia {
@@ -159,6 +160,11 @@ body {
 
 .under-nosotros {
     margin-bottom: 30px;
+}
+
+.nosotros-fotos{
+    display: flex; 
+    justify-content: space-evenly; 
 }
 
 .card-mision {
@@ -222,3 +228,81 @@ body {
     font-size: 14px;
     color: rgb(201, 201, 201);
 }
+
+
+.flip-photo{
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 400px;
+    height: 267px;
+    
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    padding: 10%;
+    background-color: #00a0c6;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .contact-box{
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    background-color: #00a0c6;
+  }
+
+  .content{
+    background-color: #00a0c6;
+    display: grid;
+    grid-auto-rows: auto;
+    text-align: center;
+    margin: 10px;
+    height: auto;
+    width: 400px;
+  }
+
+  .content-h2{
+    color: #fff;
+    overflow: hidden;
+  }
